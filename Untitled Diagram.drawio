@@ -1,9 +1,79 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="8blUbN8mNumSgxiprgeB">
-    <mxGraphModel>
+    <mxGraphModel dx="1584" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-1" value="Static Advertisments" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A3xQvhvf0f1HBUjBpHTm-2" target="A3xQvhvf0f1HBUjBpHTm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-2" value="Video Advertisements&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A3xQvhvf0f1HBUjBpHTm-5" target="A3xQvhvf0f1HBUjBpHTm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-5" value="approx txn fee * 1&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-7" value="approx txn fee * 10&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A3xQvhvf0f1HBUjBpHTm-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A3xQvhvf0f1HBUjBpHTm-8" target="A3xQvhvf0f1HBUjBpHTm-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-8" value="contract that keeps track of ads displayed on the page n number of ad viewed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="240" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A3xQvhvf0f1HBUjBpHTm-16" target="A3xQvhvf0f1HBUjBpHTm-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-16" value="if limit exceeded then prompt to show a video ad" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A3xQvhvf0f1HBUjBpHTm-18" target="A3xQvhvf0f1HBUjBpHTm-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-18" value="If not then proceed ahead" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A3xQvhvf0f1HBUjBpHTm-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-19" value="Core logic to check number of times for a particular ad&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A3xQvhvf0f1HBUjBpHTm-23" target="A3xQvhvf0f1HBUjBpHTm-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A3xQvhvf0f1HBUjBpHTm-23" target="A3xQvhvf0f1HBUjBpHTm-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-23" value="then paymaster contract to check&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-25" value="if erc4337 compatible then pay using contracts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A3xQvhvf0f1HBUjBpHTm-27" value="if not then pay using relayers using etherjs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
